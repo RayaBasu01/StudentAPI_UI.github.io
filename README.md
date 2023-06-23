@@ -1,5 +1,5 @@
 
-# KINARA CAPITAL ASSINGMENT (UI)
+# Student Database (UI)
 
 This frontend is responsible for showing student details with pagination, and implementing filtering.
 
@@ -23,7 +23,7 @@ This frontend is responsible for showing student details with pagination, and im
 Clone the repository:
 
 ```bash
-  git clone https://github.com/RayaBasu01/KinaraStudentAPI_UI.github.io
+  git clone https://github.com/RayaBasu01/StudentAPI_UI.github.io
 
 ```
     
@@ -38,7 +38,7 @@ To deploy this project run
 
 ## Demo
 
-https://rayabasu01.github.io/KinaraStudentAPI_UI.github.io/
+https://rayabasu01.github.io/StudentAPI_UI.github.io/
 
 
 ## Feedback
