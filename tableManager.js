@@ -456,14 +456,21 @@ Important! Do not edit this plugin if you're not sure you're doing it right. The
                     if ($(this).hasClass("sortingAsc")) {
                         $(Heads)
                             .removeClass("sortingAsc")
-                            .removeClass("sortingDesc");
-                        $(this).addClass("sortingDesc");
+                            .removeClass("sortingDesc")
+                            .removeClass("sorterHeader2")
+                        $(this).addClass("sortingDesc")
+                        $(this).addClass("sorterHeade1");
+                       
                         order = 1;
                     } else {
                         $(Heads)
                             .removeClass("sortingDesc")
-                            .removeClass("sortingAsc");
-                        $(this).addClass("sortingAsc");
+                            .removeClass("sortingAsc")
+                            .removeClass("sorterHeader1")
+                        $(this).addClass("sortingAsc")
+                        $(this).addClass("sorterHeader2")
+                
+
                         order = 0;
                     }
                     // TableSort(this, n, order);
@@ -471,7 +478,7 @@ Important! Do not edit this plugin if you're not sure you're doing it right. The
                     sortRules.push([n + 1, order]);
                     TableSort(sortRules);
                 });
-                $(this).addClass("sorterHeader");
+             
             }
         });
 

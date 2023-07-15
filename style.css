@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://use.fontawesome.com/releases/v5.0.6/css/all.css'); 
+  }
+
 *{
     margin:0;
     padding: 0;
@@ -46,21 +51,34 @@ button{
     cursor: pointer;
 }
 
-.tableManager th.sorterHeader{
+.tableManager th.sorterHeader1{
     cursor: pointer;
 }
 
-.tableManager th.sorterHeader::after{
-    content: " \f0dc";
-    font-family:sans-serif ; /*  FontAwesome */
+.tableManager th.sorterHeader1::after{
+    content: "\f176";
+    font-family: "Font Awesome 5 Free"; 
+    
 }
+
+.tableManager th.sorterHeader2{
+    cursor: pointer;
+}
+
+.tableManager th.sorterHeader2::after{
+ 
+    content: "\f175";
+    font-family: "Font Awesome 5 Free";  
+    
+}
+
 .tableManager th.sortingDesc::after{
-    content: " \f0dd";
-    font-family: sans-serif;
+    content: "\f176";
+    font-family: "Font Awesome 5 Free";
 }
 .tableManager th.sortingAsc::after{
-    content: " \f0dd";
-    font-family:sans-serif ;
+    content: "\f175";
+    font-family: "Font Awesome 5 Free";
 }
 
 #for_numrows{
@@ -78,3 +96,10 @@ button{
     text-align: center;
 
 }
+.pagecontroller{
+    font-size: larger;
+    margin-inline: 3px;
+    padding: 2px;
+}
+
+
